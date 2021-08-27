@@ -6,8 +6,7 @@ def fizz_buzz(n)
     elsif n%3==0
         "Fizz"
     else
-        n
+        n.to_s
     end
 end
-
-puts fizz_buzz(30)
+# puts fizz_buzz(30)
